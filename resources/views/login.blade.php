@@ -16,12 +16,12 @@
         </div>
 
         <div class="text-center">
-            <a href="" class="inline-block bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition text-white">Login</a>
+            <a href="" class="inline-block bg-pink-500 text-center py-2 px-4 rounded hover:bg-red-400 transition text-white">Login</a>
         </div>
 
         <div class="text-center text-white">
             <p class="text-gray-200 mb-3 px-2 py-3">belum punya akun?</p>
-            <a class="inline-block align-baseline font-bold text-sm text-white hover:bg-purple-darker" href="{{ route('register') }}">Register Now</a>
+            <a class="inline-block align-baseline font-bold text-sm text-white hover:bg-red-darker" href="{{ route('register') }}">Register Now</a>
         </div>
 
     </div>

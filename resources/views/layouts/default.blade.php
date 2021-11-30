@@ -19,17 +19,18 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+ 
     <header class="fixed bg-gray-700 top-0 left-0 right-0 z-50">
         <div class="container mx-auto flex justify-between p-5">
             <h1 class="text-x1 font-black text-white">Games</h1>
                 <nav class="-mx-2">
-                    <a href="{{ route('home') }}" class="text-lg mx-2 text-white hover:text-pink-500 transition">Home</a>
-                    <a href="{{ route('about') }}" class="text-lg mx-2 text-white hover:text-pink-500 transition">About</a>
-                    <a href="{{ route('login') }}" class="text-lg mx-2 text-white hover:text-pink-500 transition">Login</a>
-
+                    <a href="{{ route('home') }}" class="text-lg mx-4 text-white hover:text-red-400 transition">Home</a>
+                    <a href="{{ route('about') }}" class="text-lg mx-4 text-white hover:text-red-400 transition">About</a>
+                    <a href="{{ route('login') }}" class="text-lg mx-4 text-white hover:text-red-400 transition">Login</a>
                 </nav>
         </div>
     </header>
+
 
     <main>
         @yield('page-content')

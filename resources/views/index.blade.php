@@ -24,7 +24,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque architecto, quidem perferendis maxime rerum, totam qui illum nemo quae animi asperiores pariatur quaerat. Culpa totam veniam sunt. Tempora, ratione amet.
 
             </p>
-            <a href="{{ route('about') }}" class="bg-pink-500 text-center px-8 py-4 rounded hover:bg-purple-500 transition">Learn More</a>
+            <a href="{{ route('about') }}" class="bg-pink-500 text-center px-8 py-4 rounded hover:bg-red-400 transition">Learn More</a>
         </div>
     </section>
 
@@ -40,7 +40,7 @@
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic voluptas dolores labore sed officia ut quaerat doloremque cumque totam. Harum laudantium exercitationem magni suscipit repudiandae possimus odio eos. Minima, aperiam.
 
                         </p>
-                        <a href="{{ url('https://youtube.com/MuddyWolf') }}" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition">Learn Now!</a>
+                        <a href="{{ url('https://youtube.com/MuddyWolf') }}" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-red-400 transition">Learn Now!</a>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic voluptas dolores labore sed officia ut quaerat doloremque cumque totam. Harum laudantium exercitationem magni suscipit repudiandae possimus odio eos. Minima, aperiam.
 
                         </p>
-                        <a href="{{ url('https://youtube.com/TylerPotts') }}" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition">Learn Now!</a>
+                        <a href="{{ url('') }}" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-red-400 transition">Learn Now!</a>
                     </div>
                 </div>
             </div>
@@ -107,11 +107,11 @@
 
             <div class="-mx-2 sm:flex">
                 <a href="{{ url('https://youtube.com/TylerPotts') }}" target="_blank" rel="noopener noreferrer" 
-                class="block bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition mx-2 mb-3 sm:mb-0">
+                class="block bg-pink-500 text-center py-2 px-4 rounded hover:bg-red-400 transition mx-2 mb-3 sm:mb-0">
                     <span class="mr-2">❤️</span> Learn <strong>Web</strong> Development</a>
                     
                     <a href="{{ url('https://youtube.com/MuddyWolf') }}" target="_blank" rel="noopener noreferrer" 
-                class="block bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition mx-2 mb-3 sm:mb-0">
+                class="block bg-pink-500 text-center py-2 px-4 rounded hover:bg-red-400 transition mx-2 mb-3 sm:mb-0">
                     <span class="mr-2">🎮</span> Learn <strong>Game</strong> Development</a>
             </div>
         </div>

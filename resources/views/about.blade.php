@@ -18,7 +18,7 @@
 
             </div>
             <div class="text-center">
-                <a href="{{ route('home') }}" class="inline-block bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition">Back to Home</a>
+                <a href="{{ route('home') }}" class="inline-block bg-pink-500 text-center py-2 px-4 rounded hover:bg-red-400 transition">Back to Home</a>
             </div>
         </div>
     </section>
