@@ -18,16 +18,10 @@ Route::get('/', function () {
 })->name('home');
 
 
-
 Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/login', function () {
-    return view('login');
-})->name('login');
-
-Route::get('/register', function () {
-    return view('register');
-})->name('register');
-
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');

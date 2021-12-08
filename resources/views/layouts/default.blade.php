@@ -6,23 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coba</title>
+    <title>UPNVJ Esports</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-    <!--Swiper Js-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
 </head>
 <body class="bg-gray-700"> 
-    <!--Script for Swiper-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
- 
     <header class="fixed bg-gray-700 top-0 left-0 right-0 z-50">
         <div class="container mx-auto flex justify-between p-5">
-            <h1 class="text-x1 font-black text-white">Games</h1>
+            <img src="https://drive.google.com/file/d/1oqkZpJEsJ8Vn1g5FcgQTpwLG-DuiVVOp/view?usp=sharing" alt="">
                 <nav class="-mx-2">
                     <a href="{{ route('home') }}" class="text-lg mx-4 text-white hover:text-red-400 transition">Home</a>
                     <a href="{{ route('about') }}" class="text-lg mx-4 text-white hover:text-red-400 transition">About</a>
@@ -36,27 +27,10 @@
         @yield('page-content')
     </main>
 
-    <!--Swiper Script-->
-    <script>
-        var swiper = new Swiper(".swiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            loop: "true",
-            spaceBetween: 32,
-            coverflowEffect: {
-                rotate:0,
-            },
-        });
-    </script>
-
     <footer>
         <div class="container mx-auto p-4 text-white">
-            <p>&copy: Stephen | Learn to Code</p>
+            <p>&copy: Web Kelas C | UPNVJ Esports</p>
         </div>
     </footer>
-
-
 </body>
 </html>

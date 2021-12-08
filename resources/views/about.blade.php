@@ -4,7 +4,7 @@
     <section class="py-20 min-h-screen flex items-center text-white">
         <div class="max-w-screen-lg mx-auto">
             <h2 class="text-6xl text-center mb-6">About</h2>
-            <h3 class="text-4xl text-center text-gray-200 mb-6">Siapa itu Stephen Kurnia?</h3>
+            <h3 class="text-4xl text-center text-gray-200 mb-6">Apa itu UPNVJ Esports?</h3>
             <p class="mb-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio dolor fugiat, quis laborum, nisi veniam impedit animi atque possimus laboriosam nesciunt similique repellat illo excepturi eveniet facilis nobis odit!
 
